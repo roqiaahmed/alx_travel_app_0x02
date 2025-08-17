@@ -1,0 +1,11 @@
+Install essential packages:
+django: Core framework for application development.
+djangorestframework: REST API development.
+django-cors-headers: Cross-Origin Resource Sharing setup.
+drf-yasg: Swagger API documentation.
+celery and rabbitmq: For future task queuing and background processes.
+
+Familiarity with Django and Django REST Framework.
+Knowledge of MySQL and database management.
+Understanding of version control using Git.
+A basic grasp of environment variable management using django-environ.
