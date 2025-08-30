@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "drf_yasg",
     "listings",
     "django_seed",
+    "django_chapa",
 ]
 
 MIDDLEWARE = [
@@ -148,3 +149,9 @@ CELERY_BROKER_URL = "amqp://localhost"
 CORS_ORIGIN_ALLOW_ALL = True
 
 AUTH_USER_MODEL = "listings.User"
+
+CHAPA_SECRET = env("CHAPA_SECRET_KEY")
+
+CHAPA_API_URL = ""
+
+CHAPA_API_VERSION = "v1"
